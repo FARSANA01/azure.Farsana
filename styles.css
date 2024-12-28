@@ -4424,7 +4424,7 @@ nav .paddle-items-t,.paddle-items-th, nav .paddle-items-s{
   }
   .content-containor{
     top:178px;
-    left:-5px;
+    left:0px;
   }
   .cardmain,.cardmain2,.cardmain3{
     height:442px;
@@ -4486,9 +4486,6 @@ nav .paddle-items-t,.paddle-items-th, nav .paddle-items-s{
   nav .paddle-items-th{
     display:block;
   }
-  .content-containor{
-    left:-1px;
-  }
   .layout-para{
     width:546px;
   }
@@ -4528,9 +4525,6 @@ nav .paddle-items-t,.paddle-items-th, nav .paddle-items-s{
   }
   nav .paddle-items-f{
     display:block;
-  }
-  .content-containor{
-    left:3px;
   }
   .layout-para{
     width:569px;
@@ -4575,9 +4569,6 @@ nav .paddle-items-t,.paddle-items-th, nav .paddle-items-s{
   }
   nav .paddle-items-f{
     display:none;
-  }
-  .content-containor{
-    left:6px;
   }
   .layout-para{
     width:620px;
@@ -4665,7 +4656,7 @@ nav .paddle-items-t,.paddle-items-th, nav .paddle-items-s{
 @media screen and (min-width:1440px){
   .content-containor{
     top:168px;
-    left: 8px;
+    left:30px;
   }
   .layout-title h1{
     font-size:48px;
@@ -4976,7 +4967,7 @@ nav .paddle-items-s{
     margin:11px 10px 1px;
   }
    .content-containor{
-    left:162px;
+    left:137px;
   } 
   .footer-section,.footer-base{
     max-width: calc(1600px + 10%);
