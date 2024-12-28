@@ -3187,6 +3187,11 @@ font-size:16px;
     top:126px;
     left: -8px;
   }
+  .c-containor{
+    position:absolute;
+    height:478px;
+    top:0px;
+  }
   .layout-title h1{
     font-size:2.5rem;
     width:380px;
@@ -4155,7 +4160,7 @@ gap:16px;
   .featured-containor,.ms-img,.scrollspy-containor{
     height:740.7px;
   }
-  .arrow-side{
+  .arrow-side,.aside{
     display:none;
   }
   .indicatorl{
@@ -4387,7 +4392,7 @@ nav .paddle-items-t,.paddle-items-th, nav .paddle-items-s{
   .solution-main{
     background-color:rgb(244,250,253);
   }
-  .featured-containor,.ps-containor,.sm-containor4,.customer-containor,.next-step-containor,.sec-nav,.ai-chat-b,.azure-apps,.solution,.resource-contents{
+  .featured-containor,.ps-containor,.sm-containor4,.customer-containor,.next-step-containor,.sec-nav,.ai-chat-b,.azure-apps,.solution,.resource-contents,.content-containor{
     padding-inline:5%;
   }
   .n-img,.next-step-containor{
@@ -4895,7 +4900,7 @@ nav .paddle-items-s{
  .content-containor{
   left:43px;
  }
- .ai-layout-cols,.sec-nav,.threecards,.master-layout,.solution,.pg-gap,.azure-block,.button-group2,.flex-link,.card-horizontal-containor,.frs-col,.rc,.cBlock,.ns,.a-apps{
+ .ai-layout-cols,.sec-nav,.threecards,.master-layout,.solution,.pg-gap,.azure-block,.button-group2,.flex-link,.card-horizontal-containor,.frs-col,.rc,.cBlock,.ns,.a-apps,.c-containor{
   margin-inline:auto;
   width:95.7%;
   max-width:1328px;
@@ -4970,9 +4975,9 @@ nav .paddle-items-s{
   .right-buttons button{
     margin:11px 10px 1px;
   }
-  .content-containor{
+   .content-containor{
     left:162px;
-  }
+  } 
   .footer-section,.footer-base{
     max-width: calc(1600px + 10%);
     margin-inline: auto;
@@ -4983,7 +4988,7 @@ nav .paddle-items-s{
   }
 }
 @media screen and (min-width:1920px){
-  .content-containor{
-    left:232px;
-  }
+   .content-containor{
+    left:229px;
+  } 
 }
