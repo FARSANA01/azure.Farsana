@@ -4992,3 +4992,8 @@ nav .paddle-items-s{
     left:229px;
   } 
 }
+@media screen and (min-width:2560px){
+  .content-containor{
+    left:488px;
+  } 
+}
