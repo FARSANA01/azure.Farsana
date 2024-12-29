@@ -4656,7 +4656,6 @@ nav .paddle-items-t,.paddle-items-th, nav .paddle-items-s{
 @media screen and (min-width:1440px){
   .content-containor{
     top:168px;
-    left:30px;
   }
   .layout-title h1{
     font-size:48px;
