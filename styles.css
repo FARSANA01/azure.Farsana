@@ -334,6 +334,10 @@
   position:absolute;
   width:100%;
  }
+ .az{
+  background-color: rgb(247,247,247);
+  height:159.25px;
+ }
  .ms-img0{
   height:2327px;
   position:absolute;
@@ -2609,7 +2613,7 @@ font-size:16px;
   .column-linkfl{
     margin-top:30px;
   }
-  .aa{
+  .aa,.az{
     height:117.25px;
   }
   .bs1 span{
@@ -2992,7 +2996,7 @@ font-size:16px;
   .final-cards,.c-slide{
     margin-top:unset;
   }
-  .aa,.azure-apps{
+  .aa,.azure-apps,.az{
     height:117.25px;
   }
   .social-apps,.social-apps ul{
