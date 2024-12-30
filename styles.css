@@ -4395,6 +4395,9 @@ nav .paddle-items-t,.paddle-items-th, nav .paddle-items-s{
   .featured-containor,.ps-containor,.sm-containor4,.customer-containor,.next-step-containor,.sec-nav,.ai-chat-b,.azure-apps,.solution,.resource-contents,.content-containor{
     padding-inline:5%;
   }
+  .content-containor{
+    padding-inline:5%;
+  }
   .n-img,.next-step-containor{
     height:503px;
   }
@@ -4851,9 +4854,6 @@ nav .paddle-items-t,.paddle-items-th, nav .paddle-items-s{
 }
 }
 @media screen and (min-width:1475px){
-  .content-containor{
-    left:10px;
-  }
 .ai-img{
   height:629.39px;
 }
@@ -4888,9 +4888,14 @@ nav .paddle-items-s{
   display:none;
  }
  .content-containor{
-  left:43px;
+  width:100%;
  }
  .ai-layout-cols,.sec-nav,.threecards,.master-layout,.solution,.pg-gap,.azure-block,.button-group2,.flex-link,.card-horizontal-containor,.frs-col,.rc,.cBlock,.ns,.a-apps,.c-containor{
+  margin-inline:auto;
+  width:95.7%;
+  max-width:1328px;
+}
+.c-cont{
   margin-inline:auto;
   width:95.7%;
   max-width:1328px;
@@ -4964,10 +4969,7 @@ nav .paddle-items-s{
   }
   .right-buttons button{
     margin:11px 10px 1px;
-  }
-   .content-containor{
-    left:137px;
-  } 
+   }
   .footer-section,.footer-base{
     max-width: calc(1600px + 10%);
     margin-inline: auto;
@@ -4976,14 +4978,4 @@ nav .paddle-items-s{
     max-width: 1600px;
     margin-inline: auto;
   }
-}
-@media screen and (min-width:1920px){
-   .content-containor{
-    left:100px;
-  } 
-}
-@media screen and (min-width:2560px){
-  .content-containor{
-    left:488px;
-  } 
 }
